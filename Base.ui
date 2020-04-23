@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>622</height>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,10 +25,19 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0">
      <property name="spacing">
-      <number>6</number>
+      <number>0</number>
      </property>
      <item>
       <widget class="QLabel" name="label">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
        <property name="font">
         <font>
          <pointsize>14</pointsize>
@@ -46,6 +55,18 @@
       <layout class="QHBoxLayout" name="horizontalLayout_7">
        <item>
         <widget class="QLabel" name="label_2">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Historical SpO2 (%, 90 min)</string>
          </property>
@@ -56,6 +77,18 @@
        </item>
        <item>
         <widget class="QLabel" name="label_5">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Current SpO2 (%)</string>
          </property>
@@ -66,6 +99,18 @@
        </item>
        <item>
         <widget class="QLabel" name="label_6">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Results</string>
          </property>
@@ -79,10 +124,23 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QWidget" name="widget" native="true"/>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLCDNumber" name="lcdNumber_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
          <property name="palette">
           <palette>
            <active>
@@ -528,6 +586,18 @@
        </property>
        <item>
         <widget class="QLabel" name="label_10">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Historical Pulse (bpm, 90 min)</string>
          </property>
@@ -538,6 +608,18 @@
        </item>
        <item>
         <widget class="QLabel" name="label_11">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Current Pulse (bpm)</string>
          </property>
@@ -548,6 +630,18 @@
        </item>
        <item>
         <widget class="QLabel" name="label_12">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Results</string>
          </property>
@@ -565,6 +659,12 @@
        </item>
        <item>
         <widget class="QLCDNumber" name="lcdNumber_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
          <property name="palette">
           <palette>
            <active>
@@ -1007,6 +1107,18 @@
       <layout class="QHBoxLayout" name="horizontalLayout_10">
        <item>
         <widget class="QLabel" name="label_13">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Respiratory Rate (breaths/min, 90 min)</string>
          </property>
@@ -1017,6 +1129,18 @@
        </item>
        <item>
         <widget class="QLabel" name="label_14">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Current Respiratory Rate (breaths/min)</string>
          </property>
@@ -1027,6 +1151,18 @@
        </item>
        <item>
         <widget class="QLabel" name="label_15">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Results</string>
          </property>
@@ -1044,6 +1180,12 @@
        </item>
        <item>
         <widget class="QLCDNumber" name="lcdNumber">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
          <property name="palette">
           <palette>
            <active>
